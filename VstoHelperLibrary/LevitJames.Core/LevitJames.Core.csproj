@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D730D31-4C4F-429B-A7DA-DC7CB96C8AA5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LevitJames.Core</RootNamespace>
+    <AssemblyName>LevitJames.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationHelper.cs" />
+    <Compile Include="Bitness.cs" />
+    <Compile Include="Check.cs" />
+    <Compile Include="CompilerExtensions\CompilerExtensions.Collections.cs" />
+    <Compile Include="CompilerExtensions\CompilerExtensions.RegistryKey.cs" />
+    <Compile Include="CompilerExtensions\_CompilerExtensions.cs" />
+    <Compile Include="Diagnostics\AppDiagnosticOptions.cs" />
+    <Compile Include="Diagnostics\AppDiagnosticOptionsChangedEventArgs.cs" />
+    <Compile Include="Diagnostics\AppDiagnostics.cs" />
+    <Compile Include="Internal\NativeMethods.cs" />
+    <Compile Include="LJException.cs" />
+    <Compile Include="LockCounter.cs" />
+    <Compile Include="OSVersionHelper.cs" />
+    <Compile Include="SerializationStreamComparerSet.cs" />
+    <Compile Include="Serializer.cs" />
+    <Compile Include="SerializerOptions.cs" />
+    <Compile Include="SerizaliationStreamComparerItem.cs" />
+    <Compile Include="ServiceProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpacedCaseStyle.cs" />
+    <Compile Include="TemporaryFile.cs" />
+    <Compile Include="TextValuePair.cs" />
+    <Compile Include="UserActions\IUserActionTarget.cs" />
+    <Compile Include="UserActions\UserAction.cs" />
+    <Compile Include="UserActions\UserActionAdapter.cs" />
+    <Compile Include="UserActions\UserActionAdapterCollection.cs" />
+    <Compile Include="UserActions\UserActionAdapterNotFoundException.cs" />
+    <Compile Include="UserActions\UserActionCheckState.cs" />
+    <Compile Include="UserActions\UserActionCollection.cs" />
+    <Compile Include="UserActions\UserActionExecuteEventArgs.cs" />
+    <Compile Include="UserActions\UserActionGetResourceEventArgs.cs" />
+    <Compile Include="UserActions\UserActionImageSize.cs" />
+    <Compile Include="UserActions\UserActionManager.cs" />
+    <Compile Include="UserActions\UserActionNotFoundEventArgs.cs" />
+    <Compile Include="UserActions\UserActionTarget.cs" />
+    <Compile Include="UserActions\UserActionUpdate.cs" />
+    <Compile Include="UserActions\UserActionUpdateExceptionEventArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LevitJames.Shared\LevitJames.Shared.csproj">
+      <Project>{05968CE2-3B67-4E24-B8BD-BF6514F9C1DD}</Project>
+      <Name>LevitJames.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

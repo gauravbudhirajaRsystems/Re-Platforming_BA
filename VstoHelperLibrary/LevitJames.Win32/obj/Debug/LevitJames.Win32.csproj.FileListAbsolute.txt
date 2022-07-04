@@ -1,0 +1,6 @@
+C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Win32\bin\Debug\LevitJames.Win32.dll
+C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Win32\bin\Debug\LevitJames.Win32.pdb
+C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Win32\obj\Debug\LevitJames.Win32.csproj.AssemblyReference.cache
+C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Win32\obj\Debug\LevitJames.Win32.csproj.CoreCompileInputs.cache
+C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Win32\obj\Debug\LevitJames.Win32.dll
+C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Win32\obj\Debug\LevitJames.Win32.pdb

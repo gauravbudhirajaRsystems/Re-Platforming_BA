@@ -1,0 +1,2 @@
+C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.MSOfficeInterop\obj\Debug\LevitJames.MSOfficeInterop.csproj.AssemblyReference.cache
+C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.MSOfficeInterop\obj\Debug\LevitJames.MSOfficeInterop.csproj.CoreCompileInputs.cache

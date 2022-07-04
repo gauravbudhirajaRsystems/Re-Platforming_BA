@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B7B11550-17E9-49AA-96F2-FDC333332937}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LevitJames.MSOffice</RootNamespace>
+    <AssemblyName>LevitJames.MSOffice</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\Program Files (x86)\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\Office15\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\MicrosoftOfficeCore.15.0.0\lib\net35\Office.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addin\AddinApplicationInfo.cs" />
+    <Compile Include="Addin\OfficeAddinConnection.cs" />
+    <Compile Include="Enums\SelectionChangeOption.cs" />
+    <Compile Include="Internal\IMessageFilter.cs" />
+    <Compile Include="Internal\IWordSelectionChange.cs" />
+    <Compile Include="Internal\NativeMethods.cs" />
+    <Compile Include="Internal\StaticTraceSwitch.cs" />
+    <Compile Include="Internal\WordSelectionEventArgs.cs" />
+    <Compile Include="Internal\WordWindowHelper.cs" />
+    <Compile Include="IWordDocumentProvider.cs" />
+    <Compile Include="OfficeShortcutKeyCollection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShortcutKeyPressedEventArgs.cs" />
+    <Compile Include="SuppressEvents\SuppressWordEvents.cs" />
+    <Compile Include="UserActions\RibbonUserAction.cs" />
+    <Compile Include="UserActions\RibbonUserActionAdapter.cs" />
+    <Compile Include="WordExtensions\WordExtensions.cs" />
+    <Compile Include="WordSettings\WordChangeSetController.cs" />
+    <Compile Include="WordSettings\WordSettingsChangeSet.cs" />
+    <Compile Include="WordUndoRecord.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LevitJames.Core\LevitJames.Core.csproj">
+      <Project>{3d730d31-4c4f-429b-a7da-dc7cb96c8aa5}</Project>
+      <Name>LevitJames.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LevitJames.MSOfficeInterop\LevitJames.MSOfficeInterop.csproj">
+      <Project>{3ca961e8-0582-409f-a41b-8a43d5db5c45}</Project>
+      <Name>LevitJames.MSOfficeInterop</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LevitJames.Shared\LevitJames.Shared.csproj">
+      <Project>{05968CE2-3B67-4E24-B8BD-BF6514F9C1DD}</Project>
+      <Name>LevitJames.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LevitJames.Win32\LevitJames.Win32.csproj">
+      <Project>{AF53F493-E9E2-4531-9230-0081BF134952}</Project>
+      <Name>LevitJames.Win32</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
