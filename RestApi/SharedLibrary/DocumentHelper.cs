@@ -2,9 +2,11 @@
 {
     public class DocumentHelper
     {
-        public static bool HasNullHeaderFooter(BADocument Document)
+        public static bool HasNullHeaderFooter()
         {
-            return Document.HasNullHeaderFooter();
+            //BADocument Document
+            //return Document.HasNullHeaderFooter();
+            return false;
         }
     }
 }

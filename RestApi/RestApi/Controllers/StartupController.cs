@@ -8,9 +8,9 @@ namespace RestApi.Controllers
     public class StartupController : ControllerBase
     {
         [HttpPost("HasNullHeaderFooter")]
-        public IActionResult HasNullHeaderFooter([FromBody] BADocument Document)
+        public IActionResult HasNullHeaderFooter() //[FromBody] BADocument Document
         {
-            bool result = DocumentHelper.HasNullHeaderFooter(Document);
+            bool result = DocumentHelper.HasNullHeaderFooter(/*Document*/);
 
             return new JsonResult(result);
         }

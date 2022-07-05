@@ -5,9 +5,9 @@ using System.Text;
 
 namespace VstoHelperLibrary
 {
-    public  class DocumentHelper
+    public class DocumentHelper
     {
-        public static bool HasNullHeaderFooter(BADocument Document)
+        public static bool HasNullHeaderFooter(/*BADocument Document*/)
         {
             // Initialization.  
             bool receivedResult = false;
@@ -17,8 +17,8 @@ namespace VstoHelperLibrary
             {
                 // Setting Base address.  
                 client.BaseAddress = new Uri("https://localhost:7275/");
-
-                var json = JsonConvert.SerializeObject(Document);
+                /*Document*/
+                var json = JsonConvert.SerializeObject(null);
                 var data = new StringContent(json, Encoding.UTF8, "application/json");
 
                 // HTTP POST  
