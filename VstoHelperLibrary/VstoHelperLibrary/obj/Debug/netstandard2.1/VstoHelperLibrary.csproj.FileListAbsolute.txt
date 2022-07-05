@@ -1,0 +1,10 @@
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\netstandard2.1\VstoHelperLibrary.csproj.AssemblyReference.cache
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\netstandard2.1\VstoHelperLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\netstandard2.1\VstoHelperLibrary.AssemblyInfoInputs.cache
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\netstandard2.1\VstoHelperLibrary.AssemblyInfo.cs
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\netstandard2.1\VstoHelperLibrary.csproj.CoreCompileInputs.cache
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\bin\Debug\netstandard2.1\VstoHelperLibrary.deps.json
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\bin\Debug\netstandard2.1\VstoHelperLibrary.dll
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\bin\Debug\netstandard2.1\VstoHelperLibrary.pdb
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\netstandard2.1\VstoHelperLibrary.dll
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\netstandard2.1\VstoHelperLibrary.pdb
