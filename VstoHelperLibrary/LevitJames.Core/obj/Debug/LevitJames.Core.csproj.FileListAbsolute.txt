@@ -1,9 +1,0 @@
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Core\bin\Debug\LevitJames.Core.dll
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Core\bin\Debug\LevitJames.Core.pdb
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Core\bin\Debug\LevitJames.Shared.dll
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Core\bin\Debug\LevitJames.Shared.pdb
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Core\obj\Debug\LevitJames.Core.csproj.AssemblyReference.cache
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Core\obj\Debug\LevitJames.Core.csproj.CoreCompileInputs.cache
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Core\obj\Debug\LevitJames.Core.csproj.CopyComplete
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Core\obj\Debug\LevitJames.Core.dll
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Core\obj\Debug\LevitJames.Core.pdb

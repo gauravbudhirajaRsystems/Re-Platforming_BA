@@ -102,6 +102,20 @@
         "runtime": {
           "lib/netstandard2.0/System.IO.Packaging.dll": {}
         }
+      },
+      "SharedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DocumentFormat.OpenXml": "2.16.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        }
       }
     }
   },
@@ -306,12 +320,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "SharedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SharedLibrary/SharedLibrary.csproj",
+      "msbuildProject": "../SharedLibrary/SharedLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "DocumentFormat.OpenXml >= 2.16.0",
       "Newtonsoft.Json >= 13.0.1",
+      "SharedLibrary >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -321,11 +341,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DeCoupling-BA\\Re-Platforming\\RestApi\\RestApi\\RestApi.csproj",
+      "projectUniqueName": "C:\\DeCoupling-BA\\Re-Platforming_BA\\RestApi\\RestApi\\RestApi.csproj",
       "projectName": "RestApi",
-      "projectPath": "C:\\DeCoupling-BA\\Re-Platforming\\RestApi\\RestApi\\RestApi.csproj",
+      "projectPath": "C:\\DeCoupling-BA\\Re-Platforming_BA\\RestApi\\RestApi\\RestApi.csproj",
       "packagesPath": "C:\\Users\\gaurav.budhiraja\\.nuget\\packages\\",
-      "outputPath": "C:\\DeCoupling-BA\\Re-Platforming\\RestApi\\RestApi\\obj\\",
+      "outputPath": "C:\\DeCoupling-BA\\Re-Platforming_BA\\RestApi\\RestApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gaurav.budhiraja\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -343,7 +363,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\DeCoupling-BA\\Re-Platforming_BA\\RestApi\\SharedLibrary\\SharedLibrary.csproj": {
+              "projectPath": "C:\\DeCoupling-BA\\Re-Platforming_BA\\RestApi\\SharedLibrary\\SharedLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

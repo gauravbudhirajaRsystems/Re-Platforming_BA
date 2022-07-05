@@ -1,4 +1,0 @@
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.AddinApplicationFramework\obj\Debug\LevitJames.AddinApplicationFramework.csproj.AssemblyReference.cache
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.AddinApplicationFramework\obj\Debug\LevitJames.AddinApplicationFramework.Properties.Resources.resources
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.AddinApplicationFramework\obj\Debug\LevitJames.AddinApplicationFramework.csproj.GenerateResource.cache
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.AddinApplicationFramework\obj\Debug\LevitJames.AddinApplicationFramework.csproj.CoreCompileInputs.cache

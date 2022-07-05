@@ -1,6 +1,0 @@
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Shared\bin\Debug\LevitJames.Shared.dll
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Shared\bin\Debug\LevitJames.Shared.pdb
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Shared\obj\Debug\LevitJames.Shared.csproj.AssemblyReference.cache
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Shared\obj\Debug\LevitJames.Shared.csproj.CoreCompileInputs.cache
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Shared\obj\Debug\LevitJames.Shared.dll
-C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\LevitJames.Shared\obj\Debug\LevitJames.Shared.pdb

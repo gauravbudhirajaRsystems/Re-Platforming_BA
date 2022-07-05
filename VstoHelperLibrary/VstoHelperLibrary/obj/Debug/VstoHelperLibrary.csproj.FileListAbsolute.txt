@@ -12,3 +12,17 @@ C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\Vs
 C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\VstoHelperLibrary.csproj.CopyComplete
 C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\VstoHelperLibrary.dll
 C:\DeCoupling-BA\Re-Platforming\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\VstoHelperLibrary.pdb
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\bin\Debug\VstoHelperLibrary.dll.config
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\bin\Debug\VstoHelperLibrary.dll
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\bin\Debug\VstoHelperLibrary.pdb
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\bin\Debug\DocumentFormat.OpenXml.dll
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\bin\Debug\System.Net.Http.Formatting.dll
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\bin\Debug\DocumentFormat.OpenXml.xml
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\bin\Debug\System.Net.Http.Formatting.xml
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\VstoHelperLibrary.csproj.AssemblyReference.cache
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\VstoHelperLibrary.csproj.CoreCompileInputs.cache
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\VstoHelperLibrary.csproj.CopyComplete
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\VstoHelperLibrary.dll
+C:\DeCoupling-BA\Re-Platforming_BA\VstoHelperLibrary\VstoHelperLibrary\obj\Debug\VstoHelperLibrary.pdb
