@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevitJames.BestAuthority.Application.Common", "LevitJames.BestAuthority.Application.Common\LevitJames.BestAuthority.Application.Common.csproj", "{433E154E-225F-4EC5-835B-968B8484A154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevitJames.AddinApplicationFramework.Common", "LevitJames.AddinApplicationFramework.Common\LevitJames.AddinApplicationFramework.Common.csproj", "{B234E361-6D97-4A66-A098-90235B575813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevitJames.MSOffice.Common", "LevitJames.MSOffice.Common\LevitJames.MSOffice.Common.csproj", "{876A989B-30AD-4CD6-9239-7D4480F1DE66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevitJames.Core.Common", "LevitJames.Core.Common\LevitJames.Core.Common.csproj", "{5F52B238-1C0E-474E-A98A-8576FD9FE360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevitJames.Shared.Common", "LevitJames.Shared.Common\LevitJames.Shared.Common.csproj", "{9CB1195C-D3CF-47A3-892C-928978B9313F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevitJames.MSOfficeInterop.Common", "LevitJames.MSOfficeInterop.Common\LevitJames.MSOfficeInterop.Common.csproj", "{A9705E98-6A25-41EB-8B98-29434C948E91}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{433E154E-225F-4EC5-835B-968B8484A154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433E154E-225F-4EC5-835B-968B8484A154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433E154E-225F-4EC5-835B-968B8484A154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433E154E-225F-4EC5-835B-968B8484A154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B234E361-6D97-4A66-A098-90235B575813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B234E361-6D97-4A66-A098-90235B575813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B234E361-6D97-4A66-A098-90235B575813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B234E361-6D97-4A66-A098-90235B575813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876A989B-30AD-4CD6-9239-7D4480F1DE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876A989B-30AD-4CD6-9239-7D4480F1DE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876A989B-30AD-4CD6-9239-7D4480F1DE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876A989B-30AD-4CD6-9239-7D4480F1DE66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F52B238-1C0E-474E-A98A-8576FD9FE360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F52B238-1C0E-474E-A98A-8576FD9FE360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F52B238-1C0E-474E-A98A-8576FD9FE360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F52B238-1C0E-474E-A98A-8576FD9FE360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB1195C-D3CF-47A3-892C-928978B9313F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB1195C-D3CF-47A3-892C-928978B9313F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB1195C-D3CF-47A3-892C-928978B9313F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB1195C-D3CF-47A3-892C-928978B9313F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9705E98-6A25-41EB-8B98-29434C948E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9705E98-6A25-41EB-8B98-29434C948E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9705E98-6A25-41EB-8B98-29434C948E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9705E98-6A25-41EB-8B98-29434C948E91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

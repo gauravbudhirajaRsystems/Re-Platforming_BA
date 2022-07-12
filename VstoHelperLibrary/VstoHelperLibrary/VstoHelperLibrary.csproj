@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -7,6 +7,12 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LevitJames.BestAuthority.Application.Common">
+      <HintPath>..\..\Common\LevitJames.BestAuthority.Application.Common\bin\Debug\netstandard2.1\LevitJames.BestAuthority.Application.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

@@ -1,13 +1,16 @@
-﻿using Newtonsoft.Json;
+﻿using LevitJames.BestAuthority;
+using LevitJames.BestAuthority.Application.Common;
+using Newtonsoft.Json;
 using System;
 using System.Net.Http;
 using System.Text;
+
 
 namespace VstoHelperLibrary
 {
     public class DocumentHelper
     {
-        public static bool HasNullHeaderFooter(/*BADocument Document*/)
+        public static bool HasNullHeaderFooter(BADocument Document)
         {
             // Initialization.  
             bool receivedResult = false;
@@ -18,7 +21,7 @@ namespace VstoHelperLibrary
                 // Setting Base address.  
                 client.BaseAddress = new Uri("https://localhost:7275/");
                 /*Document*/
-                var json = JsonConvert.SerializeObject(null);
+                var json = JsonConvert.SerializeObject(Document);
                 var data = new StringContent(json, Encoding.UTF8, "application/json");
 
                 // HTTP POST  

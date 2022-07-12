@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "LevitJames.Shared.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/LevitJames.Shared.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LevitJames.Shared.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LevitJames.Shared.Common/1.0.0": {
+      "type": "project",
+      "path": "../LevitJames.Shared.Common/LevitJames.Shared.Common.csproj",
+      "msbuildProject": "../LevitJames.Shared.Common/LevitJames.Shared.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "LevitJames.Shared.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gaurav.budhiraja\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\DeCoupling-BA\\Re-Platforming_BA\\Common\\LevitJames.MSOfficeInterop.Common\\LevitJames.MSOfficeInterop.Common.csproj",
+      "projectName": "LevitJames.MSOfficeInterop.Common",
+      "projectPath": "C:\\DeCoupling-BA\\Re-Platforming_BA\\Common\\LevitJames.MSOfficeInterop.Common\\LevitJames.MSOfficeInterop.Common.csproj",
+      "packagesPath": "C:\\Users\\gaurav.budhiraja\\.nuget\\packages\\",
+      "outputPath": "C:\\DeCoupling-BA\\Re-Platforming_BA\\Common\\LevitJames.MSOfficeInterop.Common\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\gaurav.budhiraja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://literanuget.azurewebsites.net/nuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/litera/Default/_packaging/Litera/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\DeCoupling-BA\\Re-Platforming_BA\\Common\\LevitJames.Shared.Common\\LevitJames.Shared.Common.csproj": {
+              "projectPath": "C:\\DeCoupling-BA\\Re-Platforming_BA\\Common\\LevitJames.Shared.Common\\LevitJames.Shared.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

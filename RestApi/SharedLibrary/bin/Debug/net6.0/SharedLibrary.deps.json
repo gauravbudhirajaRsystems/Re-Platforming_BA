@@ -10,6 +10,9 @@
         "dependencies": {
           "DocumentFormat.OpenXml": "2.16.0",
           "Newtonsoft.Json": "13.0.1",
+          "LevitJames.AddinApplicationFramework.Common": "1.0.0.0",
+          "LevitJames.BestAuthority.Application.Common": "1.0.0.0",
+          "LevitJames.MSOffice.Common": "1.0.0.0",
           "Microsoft.Office.Interop.Word": "15.0.0.0"
         },
         "runtime": {
@@ -43,11 +46,51 @@
           }
         }
       },
+      "LevitJames.AddinApplicationFramework.Common/1.0.0.0": {
+        "runtime": {
+          "LevitJames.AddinApplicationFramework.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LevitJames.BestAuthority.Application.Common/1.0.0.0": {
+        "runtime": {
+          "LevitJames.BestAuthority.Application.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LevitJames.MSOffice.Common/1.0.0.0": {
+        "runtime": {
+          "LevitJames.MSOffice.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Microsoft.Office.Interop.Word/15.0.0.0": {
         "runtime": {
           "Microsoft.Office.Interop.Word.dll": {
             "assemblyVersion": "15.0.0.0",
             "fileVersion": "15.0.4420.1017"
+          }
+        }
+      },
+      "LevitJames.MSOfficeInterop.Common/1.0.0.0": {
+        "runtime": {
+          "LevitJames.MSOfficeInterop.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LevitJames.Core.Common/1.0.0.0": {
+        "runtime": {
+          "LevitJames.Core.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -64,6 +107,14 @@
           "Microsoft.Vbe.Interop.dll": {
             "assemblyVersion": "15.0.0.0",
             "fileVersion": "15.0.4420.1017"
+          }
+        }
+      },
+      "LevitJames.Shared.Common/1.0.0.0": {
+        "runtime": {
+          "LevitJames.Shared.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }
@@ -96,7 +147,32 @@
       "path": "system.io.packaging/4.7.0",
       "hashPath": "system.io.packaging.4.7.0.nupkg.sha512"
     },
+    "LevitJames.AddinApplicationFramework.Common/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LevitJames.BestAuthority.Application.Common/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LevitJames.MSOffice.Common/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Microsoft.Office.Interop.Word/15.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LevitJames.MSOfficeInterop.Common/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LevitJames.Core.Common/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -107,6 +183,11 @@
       "sha512": ""
     },
     "Microsoft.Vbe.Interop/15.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LevitJames.Shared.Common/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

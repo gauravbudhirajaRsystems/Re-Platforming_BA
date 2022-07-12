@@ -12,6 +12,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="LevitJames.AddinApplicationFramework.Common">
+      <HintPath>..\..\Common\LevitJames.BestAuthority.Application.Common\bin\Debug\netstandard2.1\LevitJames.AddinApplicationFramework.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="LevitJames.BestAuthority.Application.Common">
+      <HintPath>..\..\Common\LevitJames.BestAuthority.Application.Common\bin\Debug\netstandard2.1\LevitJames.BestAuthority.Application.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="LevitJames.MSOffice.Common">
+      <HintPath>..\..\Common\LevitJames.BestAuthority.Application.Common\bin\Debug\netstandard2.1\LevitJames.MSOffice.Common.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Office.Interop.Word">
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\Shared\Visual Studio Tools for Office\PIA\Office15\Microsoft.Office.Interop.Word.dll</HintPath>
     </Reference>

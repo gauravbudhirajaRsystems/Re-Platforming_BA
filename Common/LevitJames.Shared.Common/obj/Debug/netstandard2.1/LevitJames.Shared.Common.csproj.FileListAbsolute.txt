@@ -1,0 +1,10 @@
+C:\DeCoupling-BA\Re-Platforming_BA\Common\LevitJames.Shared.Common\bin\Debug\netstandard2.1\LevitJames.Shared.Common.deps.json
+C:\DeCoupling-BA\Re-Platforming_BA\Common\LevitJames.Shared.Common\bin\Debug\netstandard2.1\LevitJames.Shared.Common.dll
+C:\DeCoupling-BA\Re-Platforming_BA\Common\LevitJames.Shared.Common\bin\Debug\netstandard2.1\LevitJames.Shared.Common.pdb
+C:\DeCoupling-BA\Re-Platforming_BA\Common\LevitJames.Shared.Common\obj\Debug\netstandard2.1\LevitJames.Shared.Common.csproj.AssemblyReference.cache
+C:\DeCoupling-BA\Re-Platforming_BA\Common\LevitJames.Shared.Common\obj\Debug\netstandard2.1\LevitJames.Shared.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\DeCoupling-BA\Re-Platforming_BA\Common\LevitJames.Shared.Common\obj\Debug\netstandard2.1\LevitJames.Shared.Common.AssemblyInfoInputs.cache
+C:\DeCoupling-BA\Re-Platforming_BA\Common\LevitJames.Shared.Common\obj\Debug\netstandard2.1\LevitJames.Shared.Common.AssemblyInfo.cs
+C:\DeCoupling-BA\Re-Platforming_BA\Common\LevitJames.Shared.Common\obj\Debug\netstandard2.1\LevitJames.Shared.Common.csproj.CoreCompileInputs.cache
+C:\DeCoupling-BA\Re-Platforming_BA\Common\LevitJames.Shared.Common\obj\Debug\netstandard2.1\LevitJames.Shared.Common.dll
+C:\DeCoupling-BA\Re-Platforming_BA\Common\LevitJames.Shared.Common\obj\Debug\netstandard2.1\LevitJames.Shared.Common.pdb
